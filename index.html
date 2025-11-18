@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manistream</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="main-wrapper">
+
+        <header class="main-header"> <h1>ManiStream</h1>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Procurar">
+                <button>Procurar</button> 
+            </div>
+        
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="cadastro.html">Cadastrar</a></li>
+                </ul>
+            </nav>
+
+            <button class="nav-hamburger-btn" aria-label="Abrir menu">☰</button> <!-- Botão hamburguer-->
+        </header>
+
+        <aside class="sidebar"> <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="cadastro.html">Cadastrar</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+            <h2>Canais ao vivo</h2>
+            <ul class="canais-live-list">
+                </ul>
+        </aside>
+    
+        <main class="main-content">
+    <section>
+        <h2>Recomendados</h2>
+
+        <div class="row">
+
+            <div class="col-4">
+                <div class="card">
+                    <a href="canal.html" class="card-thumbnail">
+                        <img src="assets/MimiSoulsJogandoDarkSouls.png" alt="Preview da stream">
+                        <div class="badge-live">&#x26AA; AO VIVO</div>
+                    </a>
+                    <div class="card-content">
+                        <h3 class="card-title">Jogando Dark Souls I de novo</h3>
+                        <p class="card-user">MimiSouls</p>
+                        <p class="card-category">Dark Souls I</p>
+                        <div class="card-tags">
+                            <span class="badge">RPG</span>
+                            <span class="badge">Português</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <a href="canal.html" class="card-thumbnail">
+                        <img src="assets/StreamBRfofocandosobreasemana.png" alt="Preview da stream">
+                        <div class="badge-live">&#x26AA; AO VIVO</div>
+                    </a>
+                    <div class="card-content">
+                        <h3 class="card-title">Fofocando sobre a semana</h3>
+                        <p class="card-user">StreamBR</p>
+                        <p class="card-category">Conversando</p>
+                        <div class="card-tags">
+                            <span class="badge">Chat</span>
+                            <span class="badge">Português</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="card">
+                    <a href="canal.html" class="card-thumbnail">
+                        <img src="assets/LavenderHazejogandoFortnite.png" alt="Preview da stream">
+                        <div class="badge-live">&#x26AA; AO VIVO</div>
+                    </a>
+                    <div class="card-content">
+                        <h3 class="card-title">Jogando Fortnite Rankeado</h3>
+                        <p class="card-user">LavenderHaze</p>
+                        <p class="card-category">Fortnite</p>
+                        <div class="card-tags">
+                            <span class="badge">FPS</span>
+                            <span class="badge">Português</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div> </section>
+
+    <section>
+        <h2>Categorias</h2>
+    </section>
+</main>
+
+        <footer class="main-footer">
+            <p>&copy Todos os direitos reservados a ManiStream.</p>
+        </footer>
+
+    </div> 
+    
+    <!-- Linkando o JavaScript no HTML -->
+    <script src="js/main.js"></script> 
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+/* Design */
+
+:root {
+    /* Cor do plano de fundo*/
+
+    --color-primary: #740d0d; /* Vinho principal*/
+    --color-secundary: #440b0b; /* Vinho secundário*/
+    --color-acent: #1ba20f; /* Cor do Ao Vivo*/
+    --color-background: #0E0E10; /* Cor do plano de fundo*/
+    --color-surface: #18181B; /* Fundo da Side Bar */
+    
+    --color-text-primary: #EFEFF1; /* Cor do texto */
+    --color-text-secondary: #ADADB8; /* Cor secundária do texto*/
+    --color-border: #464649; /* Cor da borda */
+
+    /* Tamanho das fontes */
+
+    --font-family-base: 'Roboto', sans-serif;
+    --font-size-sm: 0.875rem; /* 14px */
+    --font-size-md: 1rem; /* 16px */
+    --font-size-lg: 1.25rem; /* 20px */
+    --font-size-xl: 1.875rem; /* 30px */
+    --font-size-xxl: 3rem; /* 48px */
+
+    /* Espaçamento */
+
+    --space-1: 0.5rem; /* 8 */
+    --space-2: 1rem; /* 16px */
+    --space-3: 1.5rem; /* 24px */
+    --space-4: 2rem; /* 32px */
+    --space-6: 3rem; /* 48px */
+    --space-8: 4rem; /* 64px */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { /* Aplicando as variáveis feitas acima no corpo */
+    font-family: var(--font-family-base); 
+    font-size: var(--font-size-md); 
+    background-color: var(--color-background); 
+    color: var(--color-text-primary);
+}
